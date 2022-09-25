@@ -1,0 +1,210 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: #012E3C !important;
+}
+
+.layer a{
+    transform: translateX(50%);
+}
+.athar{
+	color:#012E3C ;
+}
+.hover:hover{
+	color: #f0f0f0 !important;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 20px;
+    color: wheat;
+    margin-left: 15px;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 35px;
+	color: wheat !important;
+}
+#home{
+    background-image: url(../imges/home.background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+.btn-athar{
+	background-color: wheat;
+	border-color: wheat;
+}
+.btn-athar:hover{
+	background-color:#012E3C ;
+	color: wheat !important;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+}
+.layer h1 {
+    font-size: 60px;
+    color: wheat;
+    margin-bottom: 80px;
+    text-shadow:3px 1px black;
+}
+
+#services{
+   background-color: wheat !important;
+
+}
+.items{
+	background-color: #012E3C !important;
+}
+.items h3 {
+	color: wheat;
+	font-weight: bolder;
+}
+.items p{
+	color: wheat !important;
+}
+
+#Portfolio h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: underline;
+	display: block;
+	margin-bottom: 50px;
+}
+.portifolio{
+	background-color: wheat !important;
+}
+.hight-a{
+	height: 220.1px;
+}
+#Portfolio .light {
+	position: relative;
+	overflow: hidden;
+}
+#Portfolio .light:hover .DESIGN {
+	transform: translateY(0px);
+	opacity: 1
+}
+
+#Portfolio .light .DESIGN{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	opacity: 0;
+	transform: translateY(10px);
+	transition: all 0.4s ease-in-out;
+	background-color: rgba(255,255,255,0.80);
+	
+}
+
+#Portfolio .light .DESIGN h6 {
+	font-family: 'Montserrat', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-100%);
+	transition: transform 0.4s ease-in-out;
+}
+#Portfolio .light .DESIGN ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-70%,100%);
+	transition: transform 0.4s ease-in-out;
+}
+#Portfolio .light .DESIGN ul li{
+	list-style: none;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+#Portfolio .light .DESIGN ul li i {
+	font-size: 14px;
+	color: white;
+}
+#Portfolio .light:hover h6 {
+	transform: translate(-50%,0);
+}
+
+#Portfolio .light:hover ul{
+	transform: translate(-70%,100%);
+}
+
+.w-30{
+	width: 30%;
+}
+
+#Portfolio .nav-pills .nav-link.active{
+	background-color: transparent;
+	color: black;
+	border-bottom: solid 2px #000000;
+	border-radius: 0;
+}
+#Portfolio a {
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+#services {
+	background-color: #F7F7F7;
+}
+#services .items {
+	background-color: white;
+	box-sizing: border-box;
+	box-shadow: 5px 5px 3px #f0f0f0;
+	border-radius: 5px;
+	padding: 50px 0px;
+	
+	margin-bottom: 30px;
+	
+}
+#services .items p {
+	width: 70%;
+	margin:20px 0px 0px 15% ;
+	color: rgba(125,125,125,0.9);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#services .items h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	margin-top: 5px;
+}
+#services .items .imge{
+	width: 80px;
+	height: 80px;
+	line-height: 90px;
+	border-radius: 50%;
+	background-color: #F7F7F7;
+	transform: translateY(-25px) translateX(170%);
+	transition: all 0.3s ease-in-out;
+}
+#services .items .imge i {
+	font-size: 1.7rem;
+	transition: all 0.3s ease-in-out;
+}
+#services .items:hover i {
+	color: white;
+}
+
+#services .items:hover .imge {
+	background-color: black;
+}
+
+
+#services h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: underline;
+}
+.foot{
+	background-color: #012E3C !important;
+	color: wheat !important;
+}
